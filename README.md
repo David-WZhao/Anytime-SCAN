@@ -2,8 +2,8 @@
 Source Code for the Anytime-SCAN paper
 
 ## 1. Datasets Downloading
-The datasets used in this paper is publicly avlaible in DropBox [AnySCAN](https://www.dropbox.com/sh/6anjkvdss8k46t2/AACjox26kmBsvVKK3cS7jra0a?dl=0).
-The format of the dataset file is edge list, each edge like "node1 node2" per line
+The datasets used in this paper is publicly avlaible in DropBox [AnySCAN](https://www.dropbox.com/sh/6anjkvdss8k46t2/AACjox26kmBsvVKK3cS7jra0a?dl=0). <br />
+The format of the dataset file is a edge list, each edge like "node1 node2" per line
 
 ## 2. Run the Code
 To run the code, the library "networkx" needs to be installed on Python 2.7 or 3.x.
