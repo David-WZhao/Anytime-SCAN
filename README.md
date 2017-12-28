@@ -11,11 +11,9 @@ AnySCAN and original SCAN are both implemended in this code.
 
 ### a). Orignial SCAN
 To run the original SCAN algorithm on the input dataset, use the command: "python AnytimeSCAN.py edge-list-file-name scan epsilon(float) mu(int)".
-
 The clustering result file entitled "scan_results_node_info_[dataset-name]_[epsilon]_[mu].txt" will be output in the current working directory.
 
 If you have the ground truth of the dataset (with the format "node_ID cluster_ID" per line, hubs with cluster_ID -1 and outliers with cluster_ID -2), to calculate the NMI (Normalized Mutual Information) and ARI (Adjusted Rand Index), use the command: "python AnytimeSCAN.py edge-list-file-name scan epsilon(float) mu(int) true_label_filename".
-
 The clustering result file entitled "scan_results_node_info_[dataset-name]_[epsilon]_[mu].txt" will be output in the current working directory. The NMI and ARI will be output in the console.
 
 ### b). AnySCAN
