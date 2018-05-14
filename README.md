@@ -6,7 +6,7 @@ The datasets used in this paper is publicly avlaible in DropBox [AnySCAN](https:
 The format of the dataset file is a edge list, each edge like "node1 node2" per line
 
 ## 2. Run the Code
-To run the code, the library "networkx" needs to be installed on Python 2.7 or 3.x.
+To run the code, the library "networkx 1.x" needs to be installed on Python 2.7 or 3.x.
 AnySCAN and original SCAN are both implemended in this code.
 
 ### a). Orignial SCAN
